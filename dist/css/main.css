@@ -12,6 +12,15 @@ body {
           flex-direction: row;
 }
 
+@media screen and (max-width: 1000px) {
+  body {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
 .hero-container {
   background: url(/images/twitterHero.png) no-repeat;
   width: 50vw;
@@ -27,12 +36,19 @@ body {
           align-items: center;
 }
 
+@media screen and (max-width: 1000px) {
+  .hero-container {
+    width: 100vw;
+  }
+}
+
 .hero-container img {
   width: 300px;
   height: 300px;
 }
 
 .sign-up-container {
+  min-width: 45vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -41,6 +57,13 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   padding: 20px;
+  margin: 0px 66.5px;
+}
+
+@media screen and (max-width: 1000px) {
+  .sign-up-container {
+    width: 60vw;
+  }
 }
 
 .sign-up-container-logo-img {
@@ -64,5 +87,116 @@ body {
 .sign-up-container-sub-title-text {
   font-size: 31px;
   color: #041419;
+}
+
+.sign-up-container-links-btn-google {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid #dadce0;
+  border-radius: 25px;
+  padding: 0px 16px;
+  font-size: 15px;
+  text-align: center;
+  margin: 0px 0px 8px;
+  height: 40px;
+  width: auto;
+}
+
+.sign-up-container-links-btn-google:hover {
+  cursor: pointer;
+  background-color: #dadce0;
+}
+
+.sign-up-container-links-btn-google i {
+  margin-right: 2px;
+}
+
+.sign-up-container-links-btn-apple {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid #dadce0;
+  border-radius: 25px;
+  font-size: 15px;
+  text-align: center;
+  margin: 0px 0px 8px;
+  height: 40px;
+  width: auto;
+}
+
+.sign-up-container-links-btn-apple:hover {
+  cursor: pointer;
+  background-color: #dadce0;
+}
+
+.sign-up-container-links-btn-apple i {
+  margin-right: 2px;
+}
+
+.sign-up-container-links-btn-sign-up {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid #dadce0;
+  border-radius: 25px;
+  padding: 0px 16px;
+  font-size: 15px;
+  text-align: center;
+  margin: 0px 0px 8px;
+  height: 40px;
+  width: auto;
+}
+
+.sign-up-container-links-btn-sign-up:hover {
+  cursor: pointer;
+  background-color: #dadce0;
+}
+
+.sign-up-container-links-terms {
+  font-size: 13px;
+  color: #536471;
+  margin: 0px 0px 20px;
+}
+
+.sign-up-container-links-terms a {
+  color: #1D9BF0;
+  text-decoration: none;
+}
+
+.sign-up-container-links-terms a:hover {
+  text-decoration: underline;
+}
+
+.sign-up-container-links-sign-in {
+  font-size: 15px;
+  color: #041419;
+}
+
+.sign-up-container-links-sign-in a {
+  color: #1D9BF0;
+  text-decoration: none;
+}
+
+.sign-up-container-links-sign-in a:hover {
+  text-decoration: underline;
 }
 /*# sourceMappingURL=main.css.map */
