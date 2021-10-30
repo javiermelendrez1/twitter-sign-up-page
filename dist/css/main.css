@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -115,10 +116,12 @@ body {
 .sign-up-container-title-text {
   font-size: 64px;
   color: #041419;
+  font-family: "Roboto", sans-serif;
 }
 
 .sign-up-container-sub-title {
   margin: 0px 0px 32px;
+  font-family: "Roboto", sans-serif;
 }
 
 .sign-up-container-sub-title-text {
@@ -127,6 +130,7 @@ body {
 }
 
 .sign-up-container-links-btn-google {
+  font-family: "Roboto", sans-serif;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -156,6 +160,7 @@ body {
 }
 
 .sign-up-container-links-btn-apple {
+  font-family: "Roboto", sans-serif;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -167,6 +172,7 @@ body {
           align-items: center;
   border: 1px solid #dadce0;
   border-radius: 25px;
+  padding: 0px 16px;
   font-size: 15px;
   text-align: center;
   margin: 0px 0px 8px;
@@ -184,6 +190,7 @@ body {
 }
 
 .sign-up-container-links-btn-sign-up {
+  font-family: "Roboto", sans-serif;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -208,6 +215,10 @@ body {
   background-color: #dadce0;
 }
 
+.sign-up-container-links-btn-sign-up i {
+  margin-right: 2px;
+}
+
 .sign-up-container-links-terms {
   font-size: 13px;
   color: #536471;
@@ -225,6 +236,7 @@ body {
 
 .sign-up-container-links-sign-in {
   font-size: 15px;
+  font-family: "Roboto", sans-serif;
   color: #041419;
 }
 
