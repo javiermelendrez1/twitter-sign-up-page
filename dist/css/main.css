@@ -3,10 +3,17 @@ body {
           box-sizing: border-box;
   margin: 0%;
   padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 .hero-container {
-  background: url(/images/twitterHero.png);
+  background: url(/images/twitterHero.png) no-repeat;
   width: 50vw;
   height: 100vh;
   display: -webkit-box;
@@ -23,5 +30,39 @@ body {
 .hero-container img {
   width: 300px;
   height: 300px;
+}
+
+.sign-up-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 20px;
+}
+
+.sign-up-container-logo-img {
+  width: 30px;
+  height: 30px;
+}
+
+.sign-up-container-title {
+  margin: 48px 0px;
+}
+
+.sign-up-container-title-text {
+  font-size: 64px;
+  color: #041419;
+}
+
+.sign-up-container-sub-title {
+  margin: 0px 0px 32px;
+}
+
+.sign-up-container-sub-title-text {
+  font-size: 31px;
+  color: #041419;
 }
 /*# sourceMappingURL=main.css.map */
