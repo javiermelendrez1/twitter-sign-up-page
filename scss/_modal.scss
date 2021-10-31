@@ -1,18 +1,32 @@
 @import '_variables';
 
 .sign-up-modal-container {
+    background-color: aliceblue;
     position: fixed;
     z-index: 1;
     left: 50%;
     top: 50%;
     width: 50vw;
     transform: translate(-50%, -50%);
+    border-radius: 25px;
     &-logo{
         text-align: center;
+        padding: 0px 16px;
         &-img{
             width: 30px;
             height: 30px;
         }
     }
+    &-form{
+        margin: 0px 32px;
+        &-title{
+            margin: 16px 0px;
+            h1{
+                font-size: 23px;
+                color: $titles-font-color;
+                font-style: $font-style;
+            }
 
+        }
+    }
 }

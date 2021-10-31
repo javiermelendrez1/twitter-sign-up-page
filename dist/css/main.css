@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 .sign-up-modal-container {
+  background-color: aliceblue;
   position: fixed;
   z-index: 1;
   left: 50%;
@@ -8,15 +9,31 @@
   width: 50vw;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
+  border-radius: 25px;
 }
 
 .sign-up-modal-container-logo {
   text-align: center;
+  padding: 0px 16px;
 }
 
 .sign-up-modal-container-logo-img {
   width: 30px;
   height: 30px;
+}
+
+.sign-up-modal-container-form {
+  margin: 0px 32px;
+}
+
+.sign-up-modal-container-form-title {
+  margin: 16px 0px;
+}
+
+.sign-up-modal-container-form-title h1 {
+  font-size: 23px;
+  color: #041419;
+  font-style: "Roboto", sans-serif;
 }
 
 body {
