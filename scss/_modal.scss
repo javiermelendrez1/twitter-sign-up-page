@@ -1,0 +1,18 @@
+@import '_variables';
+
+.sign-up-modal-container {
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    top: 50%;
+    width: 50vw;
+    transform: translate(-50%, -50%);
+    &-logo{
+        text-align: center;
+        &-img{
+            width: 30px;
+            height: 30px;
+        }
+    }
+
+}
